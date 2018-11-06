@@ -1,0 +1,2 @@
+this is the line to build it for M3 which works for me
+make ARCH_CFLAGS= 'CPU_CFLAGS=-mthumb -march=armv7 -mfix-cortex-m3-ldrd'
